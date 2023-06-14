@@ -1,0 +1,11 @@
+# +required Version of the endpoint configuration YAML
+version: 0.1
+
+# +required List of endpoints to create
+endpoints:
+- name: REST Todo
+  port: 7080
+  type: REST
+  visibility: Public
+  context: /todos
+  schemaFilePath: todos_openapi.yaml
