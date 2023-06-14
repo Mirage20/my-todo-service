@@ -9,3 +9,8 @@ endpoints:
   visibility: Public
   context: /todos
   schemaFilePath: todos_openapi.yaml
+- name: GraphQL Todo
+  port: 7090
+  type: GraphQL
+  visibility: Public
+  context: /graphql
